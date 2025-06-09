@@ -1,0 +1,18 @@
+.searchBar{
+    width: 100vw;
+         height: 9vh;
+          background-color: #568b9c;
+          display: flex;
+        justify-content: center;
+           align-items: center 
+}
+.input{
+     padding: 5px;
+      margin-top: 2px ;
+      border:2px solid black;
+      border-radius:5px
+}
+.btn{
+    padding:5px;
+    border-radius:5px
+}

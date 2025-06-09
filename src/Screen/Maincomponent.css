@@ -1,0 +1,13 @@
+.mainBox{
+    height:271vh;
+    width: 100vw;
+    background-color: #03a9f461;
+}
+.cards{
+    display: flex;
+    flex-wrap:wrap;
+    gap:14%;
+    height:100vh;
+    justify-content:center;
+    align-items:center
+}
