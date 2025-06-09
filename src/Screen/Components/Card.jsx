@@ -32,9 +32,10 @@ function Cards({ data }) {
     </button>}
       modal
       position="center center">
+      {(close)=>(
       <div className="maincard Popup">
         <div className="nav-bar">
-          <button className="btns" >x</button></div>
+          <button className="btns" onClick={close} >x</button></div>
         <div className="image">
           <img src="https://th.bing.com/th/id/OIP.7BSdgl7f0znwH8JGQYisGgHaE4?rs=1&pid=ImgDetMain" alt="" />
         </div>
@@ -45,7 +46,9 @@ function Cards({ data }) {
           <div className="a"><p>MaxAge:{data.attributes.life.max}</p></div>
         </div>
       </div>
+)}
     </Popup>
+      
   )
 }
 
